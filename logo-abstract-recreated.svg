@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="86.46585" height="86.68808" viewBox="0 0 86.46585 86.68808" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="logo-title logo-desc">
+	<title id="logo-title">Abstract circular logo</title>
+	<desc id="logo-desc">A colorful gradient ring with a white center cutout and a small yellow accent dot.</desc>
+	<defs>
+		<linearGradient id="color-abstract" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%" stop-color="#fc7eae"/>
+			<stop offset="100%" stop-color="#8130ff"/>
+		</linearGradient>
+	</defs>
+
+	<!-- outer organic ring (original path preserved but translated into 0-based coords) -->
+	<g fill-rule="nonzero" stroke="none" stroke-width="0">
+		<path d="M78.45014,18.46475c13.84615,19.59954 9.30339,46.62696 -10.14654,60.36741c-19.44993,13.74045 -46.44173,8.99072 -60.28788,-10.60883c-13.84615,-19.59954 -9.30339,-46.62696 10.14654,-60.36741c19.44993,-13.74045 46.44173,-8.99072 60.28788,10.60883z" fill="url(#color-abstract)"/>
+		<path d="M68.09524,43.34404c0,13.8367 -11.13124,25.05356 -24.86231,25.05356c-13.73108,0 -24.86231,-11.21686 -24.86231,-25.05356c0,-13.8367 11.13124,-25.05356 24.86231,-25.05356c13.73108,0 24.86231,11.21686 24.86231,25.05356z" fill="#ffffff"/>
+		<path d="M81.54683,74.38116c0,3.57842 -2.87874,6.4793 -6.42984,6.4793c-3.55111,0 -6.42984,-2.90088 -6.42984,-6.4793c0,-3.57842 2.87874,-6.4793 6.42984,-6.4793c3.55111,0 6.42984,2.90088 6.42984,6.4793z" fill="#ffc563"/>
+	</g>
+</svg>

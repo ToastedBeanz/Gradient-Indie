@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #111;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+/* Nav */
+nav {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0 0 30px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* push items to the right */
+  align-items: center;
+  gap: 1.5rem; /* spacing between items */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav ul li:first-child {
+  margin-right: auto; /* push following items to the right */
+}
+
+nav ul li:first-child a {
+  font-weight: 700; /* make the first link bold */
+}
+
+nav ul li:last-child a {
+  margin-right: 20px;
+}
+/* Brand logo inside the nav */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  height: 44px; /* container stays same height to keep nav alignment */
+}
+.brand svg {
+  display: block;
+  width: 120px; /* slightly larger: increased by 10px */
+  height: auto; /* keep aspect ratio */
+}
+/*card syles*/
+card img {
+  display: inline-block;
+  background: #cfcfcf8c;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.151);
+  padding: 1rem;
+  margin: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+card img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
